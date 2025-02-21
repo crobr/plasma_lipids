@@ -19,7 +19,7 @@ old_wd<-(working)
 ##Load data
 #work computer
 
-data <- read.csv("Clinical_met_noMDS_Final.csv")
+data <- read.csv("metabolomics.csv")
 
 
 
@@ -53,7 +53,6 @@ run_stat<- function (feature){
   ##Perform if only 2 groups else multi group
   # Perform fold-change analysis on uploaded data, unpaired
   if(mSet$dataSet$cls.num==2){
-    print ("you did it")
     # Plot fold-change analysis
     mSet<-FC.Anal(mSet, 2.0, 0, FALSE); 
     mSet<-PlotFC(mSet, "fc_0_", "png", 72, width=NA);
@@ -109,8 +108,6 @@ run_stat<- function (feature){
     
     setwd(old_wd)
   } else{
-    
-    print("its a multi");
     
     ##For all groups Orthoganl Partial Least Squares
     # Perform oPLS-DA analysis
