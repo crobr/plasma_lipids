@@ -1,5 +1,5 @@
 # plasma_lipids
-# Analysis of circulating metabolites and lipids in AML  
+Analysis of circulating metabolites and lipids in AML  
 
 # About
 These files were created to analyse the circulating metabolites and lipids from diverse AML patients. Lipids in circulation can aid in predicting AML response to therapy, as well as overall survival. 
