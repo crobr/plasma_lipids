@@ -8,7 +8,7 @@ library(survminer)
 library(M3C)
 
 #work computer
-setwd('/Users/crobrien/OneDrive - UHN/Jones Lab/3. Lipids-Relapse AML/2. Plasma Sample Lipidomics Data/New folder/Final Data/Survival')
+setwd("users/your_file_location")
 
 
 # df <- read.csv("Clinical_met_noMDS_Final.csv")
